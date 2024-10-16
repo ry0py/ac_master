@@ -1,5 +1,6 @@
+// ↓↓↓↓↓ 自分で書き換えるところ ↓↓↓↓↓　=========================================================================================================
 // LINE Bot 設定
-const CHANNEL_ACCESS_TOKEN = 'ywaE17ppsh3ansr3TMh/AU6BQnySyOSi9w9Z1kASCB5a28yvTx9heL7l7lCzSGEaab0Rf9YGM53AF9WZJBgmWiW6fJnf6vAPu7N4hm3vURgvR123HzQIqxI8pV+o6h7q2CJnCFyrqlvb6/RgcOgg3QdB04t89/1O/w1cDnyilFU='; 
+const CHANNEL_ACCESS_TOKEN = 'xxxxxxxx'; 
 
 
 // その他設定
@@ -71,7 +72,7 @@ function message_send() {
 function beebottePub(action) {
   var headers = {
     "Content-Type": "application/json",
-    "X-Auth-Token": "token_vAjSQa7oNGhh2JX8"
+    "X-Auth-Token": "token_xxxxxxxxx"
   };
   var json = `{"data":"${action}"}`;
   var options = {
