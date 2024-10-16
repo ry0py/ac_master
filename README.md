@@ -27,7 +27,6 @@
     - Google Driveで空のスプレッドシートを作成。
     - ExtensionsからApp Scriptを選択
     - ライブラリに[line-bot-sdk](https://github.com/kobanyan/line-bot-sdk-gas)からスクリプトIDをコピーしてLineBotSDKというライブラリを追加
-    - 以下のコードをコピーする
 
 ## Beebotte
 - MQTTというHTTPと似てるやつでESP32と通信
